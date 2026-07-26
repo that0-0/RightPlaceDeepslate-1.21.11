@@ -1,33 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "blockrotationlock",
+  "id": "rightplacedeepslate",
   "version": "${version}",
-  "name": "BlockRotationLock",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "RightPlaceDeepslate",
+  "description": "Places normal deepslate with the correct orientation.",
   "authors": [
-    "luminer03"
+    "that0-0"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/that0-0/RightPlaceDeepslate-1.21.11"
   },
   "license": "CC0-1.0",
-  "icon": "assets/blockrotationlock/icon.png",
+  "icon": "assets/rightplacedeepslate/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "de.lmnr.blockrotationlock.BlockRotationLockClient"
+      "de.lmnr.rightplacedeepslate.RightPlaceDeepslateClient"
     ]
   },
   "mixins": [
     {
-      "config": "blockrotationlock.client.mixins.json",
+      "config": "rightplacedeepslate.client.mixins.json",
       "environment": "client"
     }
   ],
   "depends": {
     "fabricloader": ">=0.17.3",
-    "minecraft": "~1.21.10",
+    "minecraft": "~1.21.11",
     "java": ">=21",
     "fabric-api": "*",
     "fabric-lifecycle-events-v1": "*",
